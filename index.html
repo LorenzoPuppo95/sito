@@ -1,12 +1,62 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="icon" type="image/x-icon" href="Images/favicon.ico">
-    <title>Sito internet</title>
-</head>
-<body>
-    modifica online prova terminale
-</body>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="icon" type="image/x-icon" href="./assets/favicon.ico">
+        <title>Pagina introduttiva</title>
+    </head>
+    <body>
+        <!--h per i titoli funziona anche in ordina di importanza di contenuto per i crawlers-->
+        <h1>titolo</h1>
+        <h2>titolo</h2>
+        <h3>titolo</h3>
+        <h4>titolo</h4>
+        <h5>titolo</h5>
+        <h6>titolo</h6>
+        <!--p per paragrafi testuali-->
+        <p>paragrafando<br>con accapo</p>
+        <!--bold, b non semantico, strong semantico anche per crawlers-->
+        <p>Lorem ipsum dolor <strong>sit</strong> amet <b>consectetur</b> adipisicing elit. Necessitatibus voluptates facilis deserunt illum et accusamus est magnam. Deleniti eos explicabo laudantium? Voluptas minus at totam nostrum nobis, repellendus quod illum?</p>
+        <!--corsivo, i non semantico, em semantico anche per crawlers-->
+        <p>Lorem ipsum dolor <i>sit</i> amet <em>consectetur</em> adipisicing elit. Voluptas quia reprehenderit amet, vitae accusamus et eius enim nihil sapiente praesentium. Perspiciatis doloribus quas quis voluptas odit minima cumque aliquam magnam.</p>
+        <!--ol lista numerata, ul lista non numerata-->
+        <ul><!--unnumbered list-->
+            <li>primo</li><!--list item-->
+            <li>secondo</li>
+        </ul>
+        <ol><!--ordered list-->
+            <li>primo<ul><li>pasta</li><li>pizza</li></ul></li>
+            <li>secondo</li>
+        </ol>
+        <!--tabelle-->
+        <table style="border: solid 2px grey">
+            <thead><!--table head-->
+                <tr><!--table row-->
+                    <th>posizione</th><th>squadra</th><th>punteggio</th><!--table header-->
+                </tr>              
+            </thead>
+            <tbody><!--table body-->
+                <tr>
+                    <td>1</td><td>roma</td><td>32</td><!--table data-->
+                </tr>
+                <tr>
+                    <td>2</td><td>genoa</td><td>28</td>
+                </tr>
+                <tr>
+                    <td>3</td><td>milan</td><td>24</td>
+                </tr>
+            </tbody>
+        </table><br>
+        <!--links-->
+        <a href="./second.html">Seconda pagina</a><br><br>
+        <a href="https://jazzfm.ro">jazzfm</a><br><br>
+        <a href="https://jazzfm.ro" target="_blank">jazzfm nuova scheda</a><br> <br>
+        <a href="mailto:pippo@franco.com">pippo@franco.com</a><br><br>
+        <a href="tel:+39 3333333333">+39 3333333333</a><br><br>
+        <!--immagini-->
+        <img src="./assets/penguin.jpg" alt="pinguino" width="600px" height="450px" title="penguin jump">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/37/Killerwhales_jumping.jpg/640px-Killerwhales_jumping.jpg" alt="orche" width="600px" height="450px" title="killer whales">
+        <!--guide su mozilla web docks, w3schools, stackoverflow-->
+    </body>
 </html>
